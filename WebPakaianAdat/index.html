@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Deklarasi tipe dokumen dan bahasa -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakaian Adat Indonesia</title>
+    
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="desain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Container untuk background slider -->
+    <div class="slider-container">
+        <!-- Slide 1 (aktif pertama kali) -->
+        <div class="slide active" style="background-image: url('indonesia.jpg')"></div>
+        <!-- Slide 2 -->
+        <div class="slide" style="background-image: url('batik.jpg')"></div>
+        <!-- Slide 3 -->
+        <div class="slide" style="background-image: url('bali.jpg')"></div>
+        <!-- Slide 4 -->
+        <div class="slide" style="background-image: url('jawa.jpg')"></div>
+        <!-- Slide 5 -->
+        <div class="slide" style="background-image: url('sumatra.jpg')"></div>
+    </div>
+
+    <!-- Navigasi slider (tombol bulat) -->
+    <div class="slider-nav">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+    </div>
+
+    <!-- Header/Navbar -->
+    <header>
+        <a href="#" class="brand">WONDERFUL<br><span>INDONESIA</span></a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#" class="nav-link" data-slide="0">Home</a>
+                <a href="#" class="nav-link" data-slide="1">Batik</a>
+                <a href="#" class="nav-link" data-slide="2">Bali</a>
+                <a href="#" class="nav-link" data-slide="3">Jawa</a>
+                <a href="#" class="nav-link" data-slide="4">Sumatra</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section utama -->
+    <section class="home" id="section-0"> 
+        <div class="content">
+            <h1>PAKAIAN<br><span>ADAT</span></h1>
+            <p>Indonesia memiliki beragam pakaian adat yang mencerminkan kekayaan budaya dan tradisi dari berbagai daerah. Setiap pakaian adat memiliki ciri khas dan makna tersendiri, mencerminkan identitas suku dan daerahnya.</p>
+            <a href="#detail-0" class="read-more-btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Section Batik -->
+    <section class="home" id="section-1"> 
+        <div class="content">
+            <h1>PAKAIAN<br><span>BATIK</span></h1>
+            <p>Batik adalah warisan budaya Indonesia yang diakui UNESCO. Setiap motif batik memiliki makna filosofis yang mendalam dan berbeda-beda di setiap daerah.</p>
+            <a href="#detail-1" class="read-more-btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Section Bali -->
+    <section class="home" id="section-2"> 
+        <div class="content">
+            <h1>PAKAIAN<br><span>BALI</span></h1>
+            <p>Pakaian adat Bali kaya akan warna dan ornamen. Biasanya digunakan dalam upacara keagamaan dan pertunjukan tari tradisional.</p>
+            <a href="#detail-2" class="read-more-btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Section Jawa -->
+    <section class="home" id="section-3"> 
+        <div class="content">
+            <h1>PAKAIAN<br><span>JAWA</span></h1>
+            <p>Pakaian adat Jawa seperti kebaya dan jarik memiliki nilai estetika tinggi dan sering digunakan dalam acara-acara resmi.</p>
+            <a href="#detail-3" class="read-more-btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Section Sumatra -->
+    <section class="home" id="section-4"> 
+        <div class="content">
+            <h1>PAKAIAN<br><span>SUMATRA</span></h1>
+            <p>Pakaian adat Sumatra seperti ulos dan songket memiliki corak yang khas dan sering digunakan dalam upacara adat.</p>
+            <a href="#detail-4" class="read-more-btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Detail konten untuk masing-masing slide -->
+    <div class="detail-container" id="detail-0">
+        <div class="detail-content">
+            <h2>Pakaian Adat Indonesia</h2>
+            <div class="detail-grid">
+                <div class="detail-text">
+                    <p>Indonesia memiliki lebih dari 300 kelompok etnis dengan pakaian adat yang beragam. Setiap daerah memiliki ciri khas tersendiri dalam pakaian adatnya, mulai dari bahan, motif, hingga aksesoris yang digunakan.</p>
+                    <p>Pakaian adat biasanya digunakan dalam upacara adat, pernikahan, atau acara-acara penting lainnya. Beberapa contoh pakaian adat yang terkenal antara lain kebaya dari Jawa, ulos dari Sumatra, baju bodo dari Sulawesi, dan masih banyak lagi.</p>
+                    <p>Keunikan pakaian adat Indonesia tidak hanya terletak pada bentuk dan warnanya, tetapi juga pada makna filosofis yang terkandung dalam setiap motif dan aksesorinya. Pakaian adat seringkali mencerminkan status sosial, usia, dan bahkan keadaan perkawinan seseorang.</p>
+                </div>
+                <div class="detail-image">
+                    <img src="pakaian-indonesia.jpg" alt="Pakaian Adat Indonesia">
+                    <p class="image-caption">Pakaian Adat Indonesia</p>
+                </div>
+            </div>
+            <a href="#" class="close-detail">Tutup</a>
+        </div>
+    </div>
+
+    <div class="detail-container" id="detail-1">
+        <div class="detail-content">
+            <h2>Detail Pakaian Batik</h2>
+            <div class="detail-grid">
+                <div class="detail-text">
+                    <p>Batik adalah teknik menghias kain dengan lilin dan pewarna yang telah diakui oleh UNESCO sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Nonbendawi sejak 2009. Teknik ini telah ada sejak abad ke-4 SM di Indonesia.</p>
+                    <p>Beberapa jenis batik terkenal:</p>
+                    <ul>
+                        <li><strong>Batik Pekalongan</strong> - motif bunga dan warna cerah yang dipengaruhi budaya Cina dan Belanda</li>
+                        <li><strong>Batik Solo</strong> - motif tradisional dengan warna coklat sogan yang khas</li>
+                        <li><strong>Batik Yogyakarta</strong> - motif geometris dengan warna putih, hitam, dan coklat yang kental dengan nilai filosofis</li>
+                        <li><strong>Batik Cirebon</strong> - motif megamendung yang terinspirasi dari awan dan pengaruh budaya Cina</li>
+                    </ul>
+                    <p>Proses pembuatan batik tradisional memakan waktu berminggu-minggu hingga berbulan-bulan, tergantung pada kerumitan motif dan teknik yang digunakan. Setiap goresan lilin harus dilakukan dengan tangan oleh pengrajin yang berpengalaman.</p>
+                </div>
+                <div class="detail-image">
+                    <img src="batik-pekalongan.jpg" alt="Pakaian Batik">
+                    <p class="image-caption">Batik Pekalongan</p>
+                    <img src="batik-solo.jpg" alt="Motif Batik" style="margin-top: 20px;">
+                    <p class="image-caption">Batik Solo</p>
+                </div>
+            </div>
+            <a href="#" class="close-detail">Tutup</a>
+        </div>
+    </div>
+
+    <div class="detail-container" id="detail-2">
+        <div class="detail-content">
+            <h2>Detail Pakaian Bali</h2>
+            <div class="detail-grid">
+                <div class="detail-text">
+                    <p>Pakaian adat Bali memiliki ciri khas yang sangat kental dengan budaya Hindu. Untuk pria, biasanya menggunakan:</p>
+                    <ul>
+                        <li><strong>Udeng</strong> - ikat kepala dengan simpul khusus di depan</li>
+                        <li><strong>Kamen</strong> - kain panjang yang dililitkan di pinggang</li>
+                        <li><strong>Saput</strong> - kain penutup yang dililitkan di atas kamen</li>
+                    </ul>
+                    <p>Sedangkan wanita menggunakan:</p>
+                    <ul>
+                        <li><strong>Kebaya</strong> - blus tradisional dengan hiasan sulam</li>
+                        <li><strong>Kamen</strong> - kain panjang yang dililitkan di pinggang</li>
+                        <li><strong>Selendang</strong> - kain yang diselempangkan di bahu</li>
+                    </ul>
+                    <p>Pakaian adat Bali biasanya digunakan untuk upacara keagamaan, pernikahan, dan pertunjukan tari tradisional. Warna emas dan merah mendominasi pakaian adat Bali, melambangkan kemakmuran dan keberanian.</p>
+                </div>
+                <div class="detail-image">
+                    <img src="udeng-pria.jpg" alt="Pakaian Adat Bali Pria">
+                    <p class="image-caption">Pakaian adat Bali udeng pria</p>
+                    <img src="kebaya-wanita.jpg" alt="Pakaian Adat Bali Wanita" style="margin-top: 20px;">
+                    <p class="image-caption">Pakaian adat Bali kebaya wanita</p>
+                </div>
+            </div>
+            <a href="#" class="close-detail">Tutup</a>
+        </div>
+    </div>
+
+    <div class="detail-container" id="detail-3">
+        <div class="detail-content">
+            <h2>Detail Pakaian Jawa</h2>
+            <div class="detail-grid">
+                <div class="detail-text">
+                    <p>Pakaian adat Jawa sangat beragam tergantung daerah dan status sosial. Beberapa jenis pakaian adat Jawa yang terkenal:</p>
+                    <ul>
+                        <li><strong>Kebaya</strong> - pakaian wanita dengan kain batik, sering digunakan dengan bros sebagai hiasan</li>
+                        <li><strong>Jawi Jangkep</strong> - pakaian pria Jawa lengkap dengan blangkon (ikat kepala), beskap (jas), dan kain batik</li>
+                        <li><strong>Beskap</strong> - pakaian resmi pria Jawa dengan kerah tertutup dan kancing menyamping</li>
+                        <li><strong>Jarit</strong> - kain panjang yang dililitkan di pinggang dengan teknik khusus</li>
+                    </ul>
+                    <p>Motif batik yang digunakan juga memiliki makna filosofis mendalam. Misalnya motif parang melambangkan kekuatan dan kepemimpinan, motif kawung melambangkan kesempurnaan, dan motif truntum melambangkan cinta yang abadi.</p>
+                    <p>Pakaian adat Jawa sering digunakan dalam upacara pernikahan, siraman (ritual pemandian pengantin), dan acara-acara keraton.</p>
+                </div>
+                <div class="detail-image">
+                    <img src="kebaya-jawa.jpg" alt="Pakaian Pengantin Jawa">
+                    <p class="image-caption">Pakaian kebaya Jawa</p>
+                    <img src="jawi-jangkep.jpg" alt="Motif Batik Jawa" style="margin-top: 20px;">
+                    <p class="image-caption">Pakaian adat Jawa jawi jangkep</p>
+                </div>
+            </div>
+            <a href="#" class="close-detail">Tutup</a>
+        </div>
+    </div>
+
+    <div class="detail-container" id="detail-4">
+        <div class="detail-content">
+            <h2>Detail Pakaian Sumatra</h2>
+            <div class="detail-grid">
+                <div class="detail-text">
+                    <p>Sumatra memiliki beragam pakaian adat dari berbagai suku:</p>
+                    <ul>
+                        <li><strong>Ulos</strong> - kain tenun khas Batak yang digunakan dalam berbagai upacara seperti kelahiran, pernikahan, dan kematian</li>
+                        <li><strong>Baju Kurung</strong> - pakaian adat Melayu dari Riau dan Kepulauan Riau dengan potongan longgar dan hiasan sulam emas</li>
+                        <li><strong>Songket</strong> - kain tenun dengan benang emas khas Palembang yang menjadi simbol kemakmuran</li>
+                        <li><strong>Bundo Kanduang</strong> - pakaian adat Minangkabau dengan penutup kepala berbentuk tanduk kerbau</li>
+                    </ul>
+                    <p>Setiap pakaian memiliki makna dan fungsi khusus dalam masyarakat setempat. Misalnya, ulos memiliki berbagai jenis dengan fungsi berbeda - ada yang untuk pengantin, untuk orang tua, atau untuk upacara kematian.</p>
+                    <p>Pakaian adat Sumatra umumnya menggunakan warna-warna cerah seperti merah, emas, dan hijau, dengan banyak hiasan berupa sulaman benang emas atau perak.</p>
+                </div>
+                <div class="detail-image">
+                    <img src="pakaian-ulos.jpg" alt="Pakaian Ulos Batak">
+                    <p class="image-caption">Pakaian adat Batak dengan kain Ulos</p>
+                    <img src="baju-urung.jpg" alt="Pakaian Songket Palembang" style="margin-top: 20px;">
+                    <p class="image-caption">Pakaian adat baju urung</p>
+                </div>
+            </div>
+            <a href="#" class="close-detail">Tutup</a>
+        </div>
+    </div>
+
+    <!-- Ikon media sosial -->
+    <div class="media-icons-container">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Menghubungkan file JavaScript -->
+    <script src="fungsi.js"></script>
+</body>
+</html>
